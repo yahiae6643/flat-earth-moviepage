@@ -1,0 +1,25 @@
+/** {*/
+/*    border:1px solid;*/
+/*}*/
+
+.logo img {
+    display:inline;
+    width:150px;
+    position:relative;
+    top:325px;
+}
+.logo {
+    position:relative;
+    color:white;
+    text-align: center;
+    background:#4e798c;
+    height:800px;
+}
+
+h1 {
+    width:100%;
+    
+    margin:auto;
+    position: absolute;
+
+}
