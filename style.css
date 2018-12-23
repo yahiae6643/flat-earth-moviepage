@@ -54,7 +54,7 @@ input {
 
 }
 
-.typing {
+form {
     display: block;
     text-align: center;
     position: relative;
@@ -116,10 +116,9 @@ span {
     font-family: BebasNeue;
 }
 
-
 .ratings {
     position: relative;
-    top: 435px;
+    bottom: 15px;
     background: #6CB4EE;
     height: 400px;
 }
@@ -138,8 +137,9 @@ span {
 .ign {
     display: block;
     position: absolute;
-    top: 50px;
-    left:5px;
+    top: 45px;
+    left: 15px;
+    height: 100px;
 }
 
 .ign img {
@@ -147,33 +147,39 @@ span {
 }
 
 .ign p {
-    position: absolute;
-    left:100px;
-    width:150px;
-    bottom:20px;
-    color:white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 25px;
+    height: 75px;
+    color: white;
     font-family: Montserrat;
-    
+
 }
 
 .ben {
     display: block;
     position: absolute;
     top: 150px;
-    left:5px;
+    left: 15px;
+    height: 100px;
 }
 
-.ben img{
-    width:100px;
-    
+.ben img {
+    width: 100px;
+
 }
 
-.ben p{
-    position:absolute;
-    left:105px;
-    width:190px;
-    bottom:20px;
-    color:white;
+.ben p {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    height: 75px;
+    padding: 15px 0px 0px 10px;
+    width: 220px;
+    color: white;
     font-family: Montserrat;
 }
 
@@ -181,18 +187,21 @@ span {
     display: block;
     position: absolute;
     top: 260px;
-    left:5px;
+    left: 15px;
+    height: 100px;
 }
 
 .duck img {
-    width:100px;
+    width: 100px;
 }
 
 .duck p {
-    position:absolute;
-    left:105px;
-    width:320px;
-    bottom:20px;
-    color:white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding: 20px 0px 0px 10px;
+    width: 350px;
+    color: white;
     font-family: Montserrat;
 }
