@@ -105,7 +105,7 @@ h3 {
     font-size: 30px;
 }
 
-span {
+.info span {
     font-style: oblique;
     font-weight: 700;
 }
@@ -116,11 +116,11 @@ span {
     font-family: BebasNeue;
 }
 
-.ratings {
+.ratingsaudio {
     position: relative;
     bottom: 15px;
     background: #6CB4EE;
-    height: 400px;
+    height: 500px;
 }
 
 
@@ -132,76 +132,63 @@ span {
     top: 400px;
     padding: 10px;
     color: white;
+
 }
+
+.ratingsaudio img {
+    width: 100px;
+    margin-left: 10px
+}
+
+.ratingsaudio p {
+    color: white;
+    font-family: Montserrat;
+}
+
 
 .ign {
-    display: block;
     position: absolute;
-    top: 45px;
-    left: 15px;
-    height: 100px;
-}
-
-.ign img {
-    width: 100px;
+    top: 50px;
 }
 
 .ign p {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     float: right;
-    padding-top: 25px;
-    height: 75px;
-    color: white;
-    font-family: Montserrat;
-
+    padding: 25px 25px 25px 10px;
 }
 
 .ben {
-    display: block;
     position: absolute;
     top: 150px;
-    left: 15px;
-    height: 100px;
-}
-
-.ben img {
-    width: 100px;
-
 }
 
 .ben p {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     float: right;
-    height: 75px;
-    padding: 15px 0px 0px 10px;
-    width: 220px;
-    color: white;
-    font-family: Montserrat;
+    padding: 25px 25px 25px 10px;
 }
 
 .duck {
-    display: block;
     position: absolute;
-    top: 260px;
-    left: 15px;
-    height: 100px;
-}
-
-.duck img {
-    width: 100px;
+    top: 275px;
 }
 
 .duck p {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     float: right;
-    padding: 20px 0px 0px 10px;
-    width: 350px;
-    color: white;
+    padding: 25px 25px 25px 10px;
+}
+
+.pew {
+    position: absolute;
+    top: 400px;
+}
+
+.pew p {
+    float: right;
+    padding: 10px;
+}
+
+#productions {
+    display: block;
+    text-align: center;
+    color: teal;
     font-family: Montserrat;
 }
