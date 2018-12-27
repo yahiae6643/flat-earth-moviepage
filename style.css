@@ -194,7 +194,7 @@ h3 {
 }
 
 .audio {
-    border: 1px solid #AFDBF5;
+    border: 2px dashed #AFDBF5;
     width: 400px;
     height: 200px;
 
