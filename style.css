@@ -192,3 +192,21 @@ h3 {
     color: teal;
     font-family: Montserrat;
 }
+
+.audio {
+    border: 1px solid #AFDBF5;
+    width: 400px;
+    height: 200px;
+
+    position: absolute;
+    left: 65%;
+    top: 150px;
+
+}
+
+.audio audio {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
