@@ -230,6 +230,11 @@ input, select {
     font-family: Montserrat;
 }
 
+.link {
+    position: relative;
+    left: 500px;
+    top: 470px;
+}
 
 
 /*S E Q U E L*/
@@ -310,4 +315,25 @@ input, select {
     
 }
 
+.link2 {
+    position:relative;
+    left: 500px;
+    top: 75px;
+}
 
+a:link {    
+    color: #0003FF;
+    
+}
+a:visited {   
+    color: #000000;
+    
+}
+a:hover {  
+    color: #00FFF5;
+   
+}
+a:active {   
+    color: #FF0000;
+    
+}
