@@ -236,7 +236,6 @@ input, select {
     font-family: Montserrat;
 }
 
-
 /*S E Q U E L*/
 
 /*Sequel, Logo section*/
@@ -315,26 +314,13 @@ input, select {
     
 }
 
+<<<<<<< HEAD
 #link2 {
     position:relative;
     left: 500px;
     top: 75px;
     font-family: Montserrat;
 }
+=======
+>>>>>>> parent of bd56415... add links
 
-a:link {    
-    color: #0003FF;
-    
-}
-a:visited {   
-    color: #000000;
-    
-}
-a:hover {  
-    color: #00FFF5;
-   
-}
-a:active {   
-    color: #FF0000;
-    
-}
